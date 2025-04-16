@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:background="@color/azul"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tvColoque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_salario" />
+
+        <EditText
+            android:id="@+id/editTextTextSalario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Seu salario" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/info_percentual" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupAumento"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButton40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/percentual40" />
+
+            <RadioButton
+                android:id="@+id/radioButton45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/percentual45" />
+
+            <RadioButton
+                android:id="@+id/radioButton50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/percentual50" />
+
+            <Button
+                android:id="@+id/Calcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/azul"
+                android:text="Calcular" />
+
+            <TextView
+                android:id="@+id/textViewResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

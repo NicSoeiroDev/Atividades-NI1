@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lanche Facil</string>
+    <string name="Lanche">Escolha seu lanche</string>
+    <string name="Bebida">Escolha sua bebida</string>
+    <string name="Nome">Insira seu nome abaixo</string>
+    <string name="Resumo">Resumo do Pedido:</string>
+
+    //Opcoes de lanches
+    <string name="Cheddar">Cheddar Delicioso</string>
+    <string name="Bacon">Bacon Crocante</string>
+    <string name="Salada">Salada fresquinha</string>
+
+    //Opcoes de bebidas
+    <string name="Refrigente">Refrigerante</string>
+    <string name="Suco">Suco</string>
+
+</resources>

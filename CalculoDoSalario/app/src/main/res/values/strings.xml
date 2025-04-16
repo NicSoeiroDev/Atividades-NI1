@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculo Do Salario</string>
+    <string name="info_salario">Informe seu salario</string>
+    <string name="info_percentual">Informe o percentual</string>
+    <string name="percentual40">40%</string>
+    <string name="percentual45">45%</string>
+    <string name="percentual50">50%</string>
+</resources>
